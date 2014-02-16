@@ -1,0 +1,196 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    }
+
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+
+p { margin: 1em 0; }
+
+a         { color: black; }
+a:hover   { color: #d11f3f; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-size: 80%;
+}
+
+.post {
+  margin-bottom: 1.5em;
+}
+
+.post div a {
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.post p {
+  font-size: 12px;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 960px;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+.header {
+  position: relative;
+  border-bottom: 2px solid black;
+  background: black url(../img/TheStarfield.png);
+  height: 80px;
+}
+
+#logo {
+  display: block;
+  width: 214px;
+  height: 115px;
+  text-indent: -9999px;
+  background: url(../img/logo.png);
+  margin-bottom: 0;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#menu {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 80px;
+  text-align: right;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  color: #aaa;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+  background: url(../img/skyline.png);
+  z-index: 1000;
+  color: white;
+}
+
+#footer .copyright {
+  font-family: sans-serif;
+  margin: 155px 10px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}

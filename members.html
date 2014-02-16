@@ -1,0 +1,17 @@
+---
+title: Members
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <img class="avatar" src="{{member[1].avatar}}">
+    <a href="{{ member[1].link }}">
+      {{ member[1].name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
