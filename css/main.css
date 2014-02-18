@@ -101,14 +101,14 @@ a:hover   { color: #d11f3f; }
 
 #logo {
   display: block;
-  width: 214px;
-  height: 115px;
+  width: 220px;
+  height: 111px;
   text-indent: -9999px;
   background: url(../img/logo.png);
   margin-bottom: 0;
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 8px;
+  left: 8px;
 }
 
 #menu {
