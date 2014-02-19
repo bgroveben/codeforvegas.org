@@ -5,13 +5,10 @@ layout: default
 
 <h1>{{page.title}}</h1>
 
-<ul>
 {% for member in site.data.members %}
-  <li>
-    <img class="avatar" src="{{member[1].avatar}}">
-    <a href="{{ member[1].link }}">
-      {{ member[1].name }}
-    </a>
-  </li>
+<div class="member">
+  <div class="avatar"><img src="{{member[1].avatar}}" /></div>
+  <a href="{{ member[1].link }}">{{ member[1].name }}</a>
+  {% if member[1].bio %}<p>{{ member[1].bio }}</p>{% endif %}
+</div>
 {% endfor %}
-</ul>
