@@ -1,3 +1,13 @@
 name: Code for Vegas Test
 markdown: redcarpet
 pygments: true
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: vim
+git:
+  branch: master
+  publish_branch: gh-pages
