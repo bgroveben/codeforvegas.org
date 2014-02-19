@@ -185,19 +185,9 @@ end
 # rake deploy["Commit message"]
 desc "Deploy the site to a remote git repo"
 task :deploy, :message do |t, args|
-  message = args[:message]
   branch = CONFIG["git"]["branch"]
   publish_branch = CONFIG["git"]["publish_branch"]
-  if message.nil? or message.empty?
-    raise "Please add a commit message."
-  end
-  if branch.nil? or branch.empty?
-    raise "Please add a branch."
-  else
-    Rake::Task[:build].invoke
-    execute("git add .")
-    execute("git commit -m \"#{message}\"")
-    execute("git push origin #{branch}")
-    execute("git push origin #{branch}:#{publish_branch}")
-  end
+  Rake::Task[:build].invoke
+  execute("git push origin #{branch}")
+  execute("git push origin #{branch}:#{publish_branch}")
 end
