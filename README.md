@@ -22,7 +22,11 @@ Just create a .html or .markdown file in the root directory of this site.
 
 ###How do I publish my changes?
 
-You just need to push what you did to the gh-pages branch. I usually do this:
+You just need to push what you did to the gh-pages branch. You can use:
+
+`rake deploy`
+
+Or do it manually:
 
 `git push origin master:gh-pages`
 
