@@ -9,10 +9,10 @@ title: What's New?
   <div class="posts">
     {% for post in site.posts %}
       <div class="post">
-        <a class="title" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
         <span class="meta">Posted on {{ post.date | date_to_string }}{% if post.author %} by {{post.author}}{% endif %}</span>
-        <p>{{ post.content | strip_html | truncatewords:75}}</p>
-        <a href="{{ site.baseurl }}/{{ post.url }}">Read More &#x27A1;</a>
+        <p>{{ post.content | strip_html | truncatewords:25}}</p>
+        <a href="{{ post.url }}">Read More &#x27A1;</a>
       </div>
     {% endfor %}
   </div>

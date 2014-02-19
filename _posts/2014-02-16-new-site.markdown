@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "New Site / Hello World"
+author: pawel
+---
+
+Welcome to the new site! I kind of threw it together on [Jekyll](http://jekyllrb.com/) and hope it will work out OK. There is a nice [README over on github](https://github.com/slooker/codeforvegas.org/blob/master/README.md) that explains how you can add yourself, post to the site and change things up. You should read it as well as the [Jekyll docs](http://jekyllrb.com/docs/home/) if you intend to do any work on this site.
