@@ -119,6 +119,7 @@ a:hover   { color: #d11f3f; border-bottom: 1px solid #d11f3f; }
   font-size: 26px;
   line-height: 80px;
   text-align: right;
+  margin-right: 80px;
 }
 
 #menu img {
