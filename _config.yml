@@ -10,4 +10,4 @@ page:
 editor: vim
 git:
   branch: master
-  publish_branch: master
+  publish_branch: gh-pages
