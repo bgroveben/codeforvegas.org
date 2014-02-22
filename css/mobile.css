@@ -1,0 +1,43 @@
+@media only screen 
+and (max-device-width : 480px) {
+
+  .header {
+    height: 200px;
+  }
+
+  #logo {
+    margin: auto;
+    position: relative;
+    top: 8px;
+    left: 0;
+  }
+
+  #menu {
+    margin-top: 10px;
+    margin-right: 0;
+    display: block;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  #menu a {
+    display: inline-block;
+    width: 60px;
+  }
+
+  #menu #github {
+    display: none;
+  }
+
+  .site {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+}
