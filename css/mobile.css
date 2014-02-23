@@ -12,6 +12,10 @@ and (max-device-width : 480px) {
     left: 0;
   }
 
+  .posts {
+    width: 100%;
+  }
+
   #menu {
     margin-top: 10px;
     margin-right: 0;
